@@ -56,7 +56,7 @@ if __name__ == "__main__":
     mushroom_data = pd.read_csv("mushroom_data.csv")
     print(f'3B Accuracy: {bin_acc(mushroom_data["predicted"], mushroom_data["actual"])}')
 
-    #Generate a graph for the function outlined in 4B. Since the code in question is used to easily show the section where Y is close to 0 for convenience, I have saved
+    #Generate a graph for the function outlined in 4A. Since the code in question is used to easily show the section where Y is close to 0 for convenience, I have saved
     #A full view image in the directory to demonstrate the code works.
 
     #Generate equally spaced p values for the graph
